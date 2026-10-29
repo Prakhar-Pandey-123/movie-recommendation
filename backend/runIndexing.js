@@ -5,7 +5,7 @@
 // 2- entities -> neo4j(graph relationships /db)
 // 3- pdf-> parse text-> chunks-> embed->pinecone(vector db)
 
-import {extractAllEntities} from "./extractAllEntities.js";
+import {extractAllEntities} from "./entityExtractor.js";
 import {buildGraph} from "./graphBuilder.js"
 import {buildVectoreStore} from "./vectorStore.js"
 import {closeConnections} from "./config.js"
