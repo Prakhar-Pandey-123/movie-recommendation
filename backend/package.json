@@ -10,7 +10,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^2.32.0",
+    "@langchain/google-genai": "^2.3.4",
+    "@pinecone-database/pinecone": "^9.1.0",
     "dotenv": "^18.0.9",
+    "neo4j-driver": "^6.3.0",
     "pdf-parse": "^2.4.5"
   }
 }
